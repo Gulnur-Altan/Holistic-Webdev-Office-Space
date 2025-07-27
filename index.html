@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>NebulaDesk Terminal</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <div class="terminal-window">
+            <div class="terminal-bar">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+                <span class="title">NebulaDesk: Crew Intranet Access</span>
+            </div>
+            <div class="terminal-content">
+                <div id="typewriter" class="typewriter-text"></div>
+                <ul class="command-menu">
+                    <li><a href="#mission">🚀 Mission Brief</a></li>
+                    <li><a href="#crew">👨‍🚀 Crew Highlights</a></li>
+                    <li><a href="#logs">📓 Comm Logs</a></li>
+                </ul>
+
+                <section id="dashboard" class="dashboard">
+                    <h2>📊 Crew Dashboard</h2>
+                    <div class="dashboard-grid">
+                        <div class="widget">
+                            <h3>🧭 Current Stardate</h3>
+                            <p id="stardate">Loading...</p>
+                        </div>
+                        <div class="widget">
+                            <h3>⚙️ System Status</h3>
+                            <p>All systems operational</p>
+                        </div>
+                        <div class="widget">
+                            <h3>📌 Today's Tasks</h3>
+                            <ul>
+                                <li>🛠 Reactor check</li>
+                                <li>🛰 Sync with deep space probe</li>
+                                <li>☕ Crew coffee at 14:00</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="mission">
+                    <h2>Mission Brief</h2>
+                    <p>Stardate 4523.4 – Maintain internal harmony, debug
+                        life-support apps, and never forget coffee hour at
+                        14:00.</p>
+                </section>
+
+                <section id="crew">
+                    <h2>Crew Highlights</h2>
+                    <p>🧑‍🚀 Gulnur A. – UI Systems Specialist<br />👨‍🔧
+                        Backend Reactor</p>
+                </section>
+
+                <section id="logs">
+                    <h2>Comm Logs</h2>
+                    <p>- 08:00 – Daily warp sync<br />- 12:00 – Lunch protocol:
+                        Tofu Cubes<br />- 18:00 – Intergalactic game
+                        night</p>
+                </section>
+
+                <section id="employee" class="employee-month">
+                    <h2>🏅 Employee of the Month</h2>
+                    <div class="employee-card" id="employeeCard">
+                    </div>
+                </section>
+
+                <section id="events" class="events-terminal">
+                    <h2>📅 Upcoming Events</h2>
+                    <div class="event-log">
+                        <pre>
+                        [2025-07-24] 🚀 System Sync - Engineering Core @ 09:00
+                        [2025-07-25] 🎙️ Team Hologram Stand-up @ 10:30
+                        [2025-07-27] 🎮 Retro Game Night @ 20:00
+                        [2025-07-30] 🧠 Neural UX Workshop - Deck 3 @ 14:00
+                        [2025-07-31] 🧠 Sprint MultiRetrospective - @ 13:00
+                        </pre>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+
+</html>
